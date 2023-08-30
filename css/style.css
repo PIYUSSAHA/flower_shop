@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header {
+  background: rgba(229, 84, 115, 0.1);
+  height: 550px;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.header_text {
+  width: 50%;
+}
+
+.header_text > h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.header_text > p {
+  padding: 15px 0;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header_text > h2,
+p {
+  width: 450px;
+}
+
+.header_text > button {
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+
+  font-size: 20px;
+}
+
+.header_img {
+  align-self: self-end;
+  width: 50%;
+}
+
+.header_img > img {
+  height: 550px;
+}
+
+.Featured_sec {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Featured_sec > h2 {
+  text-align: center;
+}
+
+.Featured_sec > p {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+
+.Featured_cards {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.Featured_cards > .card {
+  height: 300px;
+  width: 250px;
+}
+
+.Featured_cards > .card > .img {
+  height: 300px;
+  width: 250px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+}
+.Featured_cards > .card > .img > img {
+  height: 250px;
+  object-fit: cover;
+  align-self: flex-end;
+}
+.Featured_cards > div > .text {
+  margin-top: 10px;
+  width: 250px;
+  color: #272727;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-decoration-line: underline;
+}
+
+.Support_sec {
+  margin-top: 5rem;
+  width: 100%;
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+.Support_sec > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.Support_sec > div p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.deal_sec {
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 5rem;
+  height: 320px;
+}
+
+.deal_sec_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal_sec_in > .text_sec {
+  width: 50%;
+  text-align: center;
+}
+.deal_sec_in > .text_sec > span {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.deal_sec_in > .text_sec > button {
+  margin-top: 6px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 20px;
+}
+.deal_sec_in > .img_sec {
+  height: 320px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deal_sec_in > .img_sec > img {
+  height: 220px;
+}
+
+.Instagram_sec {
+  margin-top: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.Instagram_sec > p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  align-self: center;
+}
+.Instagram_sec > .Instagram_img {
+  margin-top: 5rem;
+  display: flex;
+  grid-template-rows: 4;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Instagram_img > img {
+  height: 280px;
+}
+
+.Deals_sec {
+  margin-top: 5rem;
+  background-image: url("../assets/Flower\ Asset/Rectangle 9.png");
+  height: 400px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Deals_sec > span {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.Deals_sec > .input_field > input {
+  width: 500px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.Deals_sec > .input_field > button {
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  outline: none;
+  color: white;
+  margin-left: 5px;
+}
+
+
+footer{
+  margin-top: 5rem;
+  background-color: black;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+footer > h1{
+  color: #E55473;
+  font-family: Lato;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+footer > p{
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+  margin-bottom: 10px;
+}
+footer > span{
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
